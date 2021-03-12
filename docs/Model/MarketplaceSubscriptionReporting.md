@@ -1,0 +1,11 @@
+# MarketplaceSubscriptionReporting
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**status** | [**\IMN\Swagger\Client\Model\MarketplaceSubscriptionStatus**](MarketplaceSubscriptionStatus.md) |  | 
+**messages** | [**\IMN\Swagger\Client\Model\MarketplaceSubscriptionMessage[]**](MarketplaceSubscriptionMessage.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
