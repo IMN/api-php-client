@@ -186,9 +186,7 @@ class MerchantEvents implements ModelInterface, ArrayAccess
      */
     public function listInvalidProperties()
     {
-        $invalidProperties = parent::listInvalidProperties();
-
-        return $invalidProperties;
+        return [];
     }
 
     /**
@@ -199,10 +197,6 @@ class MerchantEvents implements ModelInterface, ArrayAccess
      */
     public function valid()
     {
-        if (!parent::valid()) {
-            return false;
-        }
-
         return true;
     }
 
